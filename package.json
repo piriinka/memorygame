@@ -1,4 +1,4 @@
-{
+{   "homepage": "https://github.com/piriinka/memorygame",
   "name": "memorycard",
   "private": true,
   "version": "0.0.0",
@@ -28,4 +28,11 @@
     "gh-pages": "^5.0.0",
     "vite": "^4.3.2"
   }
+  {
+    "scripts": {
+      "build:staging": "env-cmd -f .env.staging npm run build"
+    }
+  }
+  
 }
+
